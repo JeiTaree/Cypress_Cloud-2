@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cypress_Cloud.Survey">
+  <StackLayout Padding="30" BackgroundColor="White">
+    <Button  HorizontalOptions="EndAndExpand" Command="{Binding CommandOne}" Image = "survey.png" Scale= "0.5" />
+    <Image Source="logo.png" Scale="0.4" />
+    <Label Text="1. Enter your child/student's ID Number " />
+    <Label Text=" 2. How often do you meet in person with teachers at your child's school?" />
+    <Label Text="3. How confident are you that you can help your child develop good friendships?" />
+    <Label Text="4. How much effort do you put into helping your child learn to do things for himself/herself? " />
+    <Label Text="5. In the past year, how often have you discussed your child's school with other parents from the school?" />
+    <Label Text="6. Do you have any comments about any of your answers to the questions in this section?" />
+  </StackLayout>
+</ContentPage>

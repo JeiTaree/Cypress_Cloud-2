@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cypress_Cloud.ClassDetails">
+
+
+	<StackLayout Padding="10">
+
+
+	 
+   
+    <Label TextColor="Teal" FontAttributes="Italic, Bold" FontSize="20" Text="Class List"/>
+
+    <StackLayout Padding="10">
+	<Label TextColor="Black" FontSize="10" Text="Class 1 of 1"/>
+    <Label TextColor="Black" FontSize="10" Text="Building 'A' Floor 1 "/>
+	<Label TextColor="Black" FontSize="10" Text="Tutor Cyn Czel "/>
+	</StackLayout>
+
+
+	<StackLayout Padding="10">
+    <Label TextColor="Black" FontSize="10" Text="Class 1 of 2"/>
+    <Label TextColor="Black" FontSize="10" Text="Building 'A' Floor 1 "/>
+	<Label TextColor="Black" FontSize="10" Text="Tutor Czel Schnizel "/>
+	</StackLayout>
+
+
+
+    <StackLayout Padding="10"> 
+    <Label TextColor="Black" FontSize="10" Text="Class 1 of 3"/>
+    <Label TextColor="Black" FontSize="10" Text="Building 'A' Floor 1 "/>
+	<Label TextColor="Black" FontSize="10" Text="Tutor Cris McMurphy "/>
+    </StackLayout>
+
+
+     <StackLayout Padding="10"> 
+   <Label TextColor="Black" FontSize="10" Text="Class 2 of 1"/>
+    <Label TextColor="Black" FontSize="10" Text="Building 'T' Floor 4 "/>
+	<Label TextColor="Black" FontSize="10" Text="Ciel Michaelis "/>
+    </StackLayout>
+
+
+
+	 <StackLayout Padding="10"> 
+    <Label TextColor="Black" FontSize="10" Text="Class 2 of 2"/>
+    <Label TextColor="Black" FontSize="10" Text="Building 'T' Floor 4 "/>
+	<Label TextColor="Black" FontSize="10" Text="Tutor Mee Somnia "/>
+    </StackLayout>
+
+
+	 <StackLayout Padding="10"> 
+    <Label TextColor="Black" FontSize="10" Text="Class 2 of 3"/>
+    <Label TextColor="Black" FontSize="10" Text="Building 'T' Floor 4 "/>
+	<Label TextColor="Black" FontSize="10" Text="Ora Ora"/>
+    </StackLayout>
+			
+
+
+
+
+
+
+
+        
+  </StackLayout> 
+
+
+	
+</ContentPage>

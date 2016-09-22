@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cypress_Cloud.Events">
+  <StackLayout Padding="30" BackgroundColor="White">
+    <Button HorizontalOptions="StartAndExpand" Command="{Binding CommandOne}" Image = "events.png" Scale= "0.7"/>
+    <Image Source="logo.png" Scale="0.4" />
+    <Image Source="aaaa.png" Scale="0.5" HorizontalOptions="StartAndExpand"/>
+  </StackLayout>
+</ContentPage>

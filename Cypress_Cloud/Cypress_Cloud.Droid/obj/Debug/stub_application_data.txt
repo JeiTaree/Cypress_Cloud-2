@@ -1,0 +1,2 @@
+android.app.Application
+Cypress_Cloud.Droid

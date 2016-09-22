@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cypress_Cloud.Tutors">
+  <StackLayout Padding="30" BackgroundColor="White">
+    <Button HorizontalOptions="StartAndExpand"  Image= "tutors.png" Scale= "0.7"/>
+    <Image Source="logo.png" Scale="0.4" />
+    <Label Text=" Czel Scnizel" />
+    <Label Text=" Class 1 of 2 " />
+    <Label Text=" c.schnizel@cypress.edu.au" />
+    <Label Text=" P. 0454872168" />
+    <Label Text=" Cyn Czel" />
+    <Label Text=" Class 6 of 1 " />
+    <Label Text=" c.schnizel@cypress.edu.au" />
+    <Label Text=" P. 0498527339" />
+    <Label Text=" Ciel Michaelis" />
+    <Label Text=" Class 6 of 2 " />
+    <Label Text=" c.michaelis@cypress.edu.au" />
+    <Label Text=" P. 0497126483" />
+    <Label Text=" Mee Somnia" />
+    <Label Text=" Class 6 of 3 " />
+    <Label Text=" M.insomnia@cypress.edu.au" />
+    <Label Text=" P. 0495821345" />
+  </StackLayout>
+</ContentPage>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Cypress_Cloud.AboutUs">
+  <StackLayout  BackgroundColor="White" >
+    <Button
+     HorizontalOptions="EndAndExpand"
+     VerticalOptions= "StartAndExpand"
+     Image = "aboutus.png"
+     Scale= "0.7"/>
+    <Image Source="logo.png" />
+    <Label Text="This app was developed for student to organize their school schedule which includes events,tutor,survey,class details  " />
+  </StackLayout>
+</ContentPage>

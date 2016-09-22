@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cypress_Cloud.DatabasePage">
+  <StackLayout Padding="60">
+    <Image Source="logoo.png" Scale="0.7" />
+    
+    <Button
+      Clicked="SaveData_Button_Clicked"
+      HorizontalOptions="FillAndExpand"
+      BackgroundColor="#800000"
+      TextColor="White"
+      Font="Bold, Large"
+      Text="Save Data" />
+
+    <Button
+     Clicked="ReadData_Button_Clicked"
+     HorizontalOptions="FillAndExpand"
+     BackgroundColor="#800000"
+     TextColor="White"
+     Font="Bold, Large"
+     Text="Read Database" />
+  </StackLayout>
+</ContentPage>

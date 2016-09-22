@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cypress_Cloud.ClassDetails">
+  <StackLayout Padding="30" BackgroundColor="White">
+    <Button HorizontalOptions="StartAndExpand" Command="{Binding CommandOne}" Image = "classdetails.png" Scale= "0.7"/>
+    <Image Source="logo.png" Scale="0.4"/>
+    <Label Text="Class 1 of 1" />
+    <Label Text="Building 'A' Floor 1 " />
+    <Label Text=" Tutor Ora Ora " />
+    <Label Text="Class 1 of 2" />
+    <Label Text="Building 'A' Floor 1 " />
+    <Label Text=" Czel Schnizel " />
+    <Label Text="Class 1 of 3" />
+    <Label Text="Building 'A' Floor 1 " />
+    <Label Text=" Cris McMurphy " />
+  </StackLayout>
+</ContentPage>
