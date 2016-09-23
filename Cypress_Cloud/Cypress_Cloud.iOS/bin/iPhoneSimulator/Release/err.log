@@ -1,5 +1,77 @@
 dyld: warning: could not load inserted library '/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/monotouch-fixes.dylib' because no suitable image found.  Did find:
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/monotouch-fixes.dylib: required code signature missing for '/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/monotouch-fixes.dylib'
 
-objc[9077]: Class VCWeakObjectHolder is implemented in both /Users/etareke/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x122206b60) and /Users/etareke/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/AVConference.framework/AVConference (0x1221437e0). One of the two will be used. Which one is undefined.
-objc[9077]: Class PLBuildVersion is implemented in both /Users/etareke/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x11c588910) and /Users/etareke/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x11c3b2210). One of the two will be used. Which one is undefined.
+objc[15557]: Class VCWeakObjectHolder is implemented in both /Users/etareke/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/ViceroyTrace.framework/ViceroyTrace (0x121a92b60) and /Users/etareke/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/GameKitServices.framework/Frameworks/AVConference.framework/AVConference (0x1219cf7e0). One of the two will be used. Which one is undefined.
+objc[15557]: Class PLBuildVersion is implemented in both /Users/etareke/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/AssetsLibraryServices.framework/AssetsLibraryServices (0x11be14910) and /Users/etareke/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/PhotoLibraryServices (0x11bc3e210). One of the two will be used. Which one is undefined.
+2016-09-23 17:48:30.739 Cypress_CloudiOS[15557:637472] 
+Unhandled Exception:
+SQLite.Net.SQLiteException: Could not open database file: /Users/etareke/Library/Developer/CoreSimulator/Devices/A21AF4AE-F8DB-4836-876B-B9803E40F7CE/data/Containers/Data/Application/003BFC59-7DC5-4412-AA29-5DAF73EBCBFC/Documents/.../Library/Login.db3 (CannotOpen)
+  at SQLite.Net.SQLiteConnection..ctor (SQLite.Net.Interop.ISQLitePlatform sqlitePlatform, System.String databasePath, SQLite.Net.Interop.SQLiteOpenFlags openFlags, System.Boolean storeDateTimeAsTicks, SQLite.Net.IBlobSerializer serializer, System.Collections.Generic.IDictionary`2[TKey,TValue] tableMappings, System.Collections.Generic.IDictionary`2[TKey,TValue] extraTypeMappings, SQLite.Net.IContractResolver resolver) [0x000e3] in <8f2bb39aeff94a30a8628064be9c7efe>:0 
+  at SQLite.Net.SQLiteConnection..ctor (SQLite.Net.Interop.ISQLitePlatform sqlitePlatform, System.String databasePath, System.Boolean storeDateTimeAsTicks, SQLite.Net.IBlobSerializer serializer, System.Collections.Generic.IDictionary`2[TKey,TValue] tableMappings, System.Collections.Generic.IDictionary`2[TKey,TValue] extraTypeMappings, SQLite.Net.IContractResolver resolver) [0x00000] in <8f2bb39aeff94a30a8628064be9c7efe>:0 
+  at Cypress_Cloud.DataAccess..ctor () [0x00030] in <adc5d7ea5a774a84865024c7a5cfba02>:0 
+  at Cypress_Cloud.LoginPage..ctor () [0x00041] in <adc5d7ea5a774a84865024c7a5cfba02>:0 
+  at Cypress_Cloud.App..ctor () [0x00006] in <adc5d7ea5a774a84865024c7a5cfba02>:0 
+  at Cypress_Cloud.iOS.AppDelegate.FinishedLaunching (UIKit.UIApplication app, Foundation.NSDictionary options) [0x00005] in <c22d760fb9464e1f80e0e9681206f22e>:0 
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <9a8d04c70ad54dfaa6edd175669181cd>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <9a8d04c70ad54dfaa6edd175669181cd>:0 
+  at Cypress_Cloud.iOS.Application.Main (System.String[] args) [0x00000] in <c22d760fb9464e1f80e0e9681206f22e>:0 
+2016-09-23 17:48:30.740 Cypress_CloudiOS[15557:637472] Unhandled managed exception:
+Could not open database file: /Users/etareke/Library/Developer/CoreSimulator/Devices/A21AF4AE-F8DB-4836-876B-B9803E40F7CE/data/Containers/Data/Application/003BFC59-7DC5-4412-AA29-5DAF73EBCBFC/Documents/.../Library/Login.db3 (CannotOpen) (SQLite.Net.SQLiteException)
+  at SQLite.Net.SQLiteConnection..ctor (SQLite.Net.Interop.ISQLitePlatform sqlitePlatform, System.String databasePath, SQLite.Net.Interop.SQLiteOpenFlags openFlags, System.Boolean storeDateTimeAsTicks, SQLite.Net.IBlobSerializer serializer, System.Collections.Generic.IDictionary`2[TKey,TValue] tableMappings, System.Collections.Generic.IDictionary`2[TKey,TValue] extraTypeMappings, SQLite.Net.IContractResolver resolver) [0x000e3] in <8f2bb39aeff94a30a8628064be9c7efe>:0 
+  at SQLite.Net.SQLiteConnection..ctor (SQLite.Net.Interop.ISQLitePlatform sqlitePlatform, System.String databasePath, System.Boolean storeDateTimeAsTicks, SQLite.Net.IBlobSerializer serializer, System.Collections.Generic.IDictionary`2[TKey,TValue] tableMappings, System.Collections.Generic.IDictionary`2[TKey,TValue] extraTypeMappings, SQLite.Net.IContractResolver resolver) [0x00000] in <8f2bb39aeff94a30a8628064be9c7efe>:0 
+  at Cypress_Cloud.DataAccess..ctor () [0x00030] in <adc5d7ea5a774a84865024c7a5cfba02>:0 
+  at Cypress_Cloud.LoginPage..ctor () [0x00041] in <adc5d7ea5a774a84865024c7a5cfba02>:0 
+  at Cypress_Cloud.App..ctor () [0x00006] in <adc5d7ea5a774a84865024c7a5cfba02>:0 
+  at Cypress_Cloud.iOS.AppDelegate.FinishedLaunching (UIKit.UIApplication app, Foundation.NSDictionary options) [0x00005] in <c22d760fb9464e1f80e0e9681206f22e>:0 
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <9a8d04c70ad54dfaa6edd175669181cd>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x00038] in <9a8d04c70ad54dfaa6edd175669181cd>:0 
+  at Cypress_Cloud.iOS.Application.Main (System.String[] args) [0x00000] in <c22d760fb9464e1f80e0e9681206f22e>:0 
+2016-09-23 17:48:30.741 Cypress_CloudiOS[15557:637472] critical: Stacktrace:
+
+2016-09-23 17:48:30.741 Cypress_CloudiOS[15557:637472] critical: 
+Native stacktrace:
+
+2016-09-23 17:48:30.743 Cypress_CloudiOS[15557:637472] critical: 	0   Cypress_CloudiOS                    0x000000010bcd22dd mono_handle_native_sigsegv + 253
+2016-09-23 17:48:30.744 Cypress_CloudiOS[15557:637472] critical: 	1   libsystem_platform.dylib            0x00000001183c352a _sigtramp + 26
+2016-09-23 17:48:30.744 Cypress_CloudiOS[15557:637472] critical: 	2   libsystem_pthread.dylib             0x00000001183e2297 __pthread_supported_features + 4475
+2016-09-23 17:48:30.744 Cypress_CloudiOS[15557:637472] critical: 	3   libsystem_c.dylib                   0x0000000118120ff7 abort + 129
+2016-09-23 17:48:30.744 Cypress_CloudiOS[15557:637472] critical: 	4   Cypress_CloudiOS                    0x000000010be4e9d2 xamarin_unhandled_exception_handler + 34
+2016-09-23 17:48:30.745 Cypress_CloudiOS[15557:637472] critical: 	5   Cypress_CloudiOS                    0x000000010bcd2b8c mono_invoke_unhandled_exception_hook + 92
+2016-09-23 17:48:30.745 Cypress_CloudiOS[15557:637472] critical: 	6   Cypress_CloudiOS                    0x000000010bcd1b2f mono_handle_exception_internal + 5119
+2016-09-23 17:48:30.745 Cypress_CloudiOS[15557:637472] critical: 	7   Cypress_CloudiOS                    0x000000010bcd0728 mono_handle_exception + 24
+2016-09-23 17:48:30.745 Cypress_CloudiOS[15557:637472] critical: 	8   Cypress_CloudiOS                    0x000000010bc4e6ef mono_amd64_throw_exception + 143
+2016-09-23 17:48:30.745 Cypress_CloudiOS[15557:637472] critical: 	9   ???                                 0x00000001298be9e7 0x0 + 4992002535
+2016-09-23 17:48:30.745 Cypress_CloudiOS[15557:637472] critical: 	10  ???                                 0x000000012ec939c0 0x0 + 5079906752
+2016-09-23 17:48:30.746 Cypress_CloudiOS[15557:637472] critical: 	11  ???                                 0x000000012ec92f04 0x0 + 5079904004
+2016-09-23 17:48:30.746 Cypress_CloudiOS[15557:637472] critical: 	12  ???                                 0x000000012ebcf8c7 0x0 + 5079103687
+2016-09-23 17:48:30.746 Cypress_CloudiOS[15557:637472] critical: 	13  ???                                 0x000000012e8d9489 0x0 + 5075997833
+2016-09-23 17:48:30.746 Cypress_CloudiOS[15557:637472] critical: 	14  Cypress_CloudiOS                    0x000000010bce126a mono_jit_runtime_invoke + 2202
+2016-09-23 17:48:30.746 Cypress_CloudiOS[15557:637472] critical: 	15  Cypress_CloudiOS                    0x000000010bd824a8 do_runtime_invoke + 88
+2016-09-23 17:48:30.746 Cypress_CloudiOS[15557:637472] critical: 	16  Cypress_CloudiOS                    0x000000010bd82420 mono_runtime_invoke + 208
+2016-09-23 17:48:30.746 Cypress_CloudiOS[15557:637472] critical: 	17  Cypress_CloudiOS                    0x000000010be51d65 xamarin_invoke_trampoline + 3365
+2016-09-23 17:48:30.746 Cypress_CloudiOS[15557:637472] critical: 	18  Cypress_CloudiOS                    0x000000010be5397e xamarin_arch_trampoline + 78
+2016-09-23 17:48:30.746 Cypress_CloudiOS[15557:637472] critical: 	19  Cypress_CloudiOS                    0x000000010be5465a xamarin_x86_64_common_trampoline + 110
+2016-09-23 17:48:30.747 Cypress_CloudiOS[15557:637472] critical: 	20  UIKit                               0x000000010e70f68e -[UIApplication _handleDelegateCallbacksWithOptions:isSuspended:restoreState:] + 290
+2016-09-23 17:48:30.747 Cypress_CloudiOS[15557:637472] critical: 	21  UIKit                               0x000000010e711013 -[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] + 4236
+2016-09-23 17:48:30.747 Cypress_CloudiOS[15557:637472] critical: 	22  UIKit                               0x000000010e7173b9 -[UIApplication _runWithMainScene:transitionContext:completion:] + 1731
+2016-09-23 17:48:30.747 Cypress_CloudiOS[15557:637472] critical: 	23  UIKit                               0x000000010e714539 -[UIApplication workspaceDidEndTransaction:] + 188
+2016-09-23 17:48:30.747 Cypress_CloudiOS[15557:637472] critical: 	24  FrontBoardServices                  0x000000011845d76b __FBSSERIALQUEUE_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+2016-09-23 17:48:30.747 Cypress_CloudiOS[15557:637472] critical: 	25  FrontBoardServices                  0x000000011845d5e4 -[FBSSerialQueue _performNext] + 189
+2016-09-23 17:48:30.747 Cypress_CloudiOS[15557:637472] critical: 	26  FrontBoardServices                  0x000000011845d96d -[FBSSerialQueue _performNextFromRunLoopSource] + 45
+2016-09-23 17:48:30.747 Cypress_CloudiOS[15557:637472] critical: 	27  CoreFoundation                      0x0000000116e48311 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+2016-09-23 17:48:30.747 Cypress_CloudiOS[15557:637472] critical: 	28  CoreFoundation                      0x0000000116e2d59c __CFRunLoopDoSources0 + 556
+2016-09-23 17:48:30.747 Cypress_CloudiOS[15557:637472] critical: 	29  CoreFoundation                      0x0000000116e2ca86 __CFRunLoopRun + 918
+2016-09-23 17:48:30.747 Cypress_CloudiOS[15557:637472] critical: 	30  CoreFoundation                      0x0000000116e2c494 CFRunLoopRunSpecific + 420
+2016-09-23 17:48:30.748 Cypress_CloudiOS[15557:637472] critical: 	31  UIKit                               0x000000010e712db6 -[UIApplication _run] + 434
+2016-09-23 17:48:30.748 Cypress_CloudiOS[15557:637472] critical: 	32  UIKit                               0x000000010e718f34 UIApplicationMain + 159
+2016-09-23 17:48:30.748 Cypress_CloudiOS[15557:637472] critical: 	33  ???                                 0x000000012be1e562 0x0 + 5031191906
+2016-09-23 17:48:30.748 Cypress_CloudiOS[15557:637472] critical: 	34  ???                                 0x000000012be1e3f0 0x0 + 5031191536
+2016-09-23 17:48:30.748 Cypress_CloudiOS[15557:637472] critical: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+

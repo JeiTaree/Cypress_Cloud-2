@@ -13,12 +13,12 @@
 
     <StackLayout  Padding="10">
     <Label TextColor="Black" FontSize="10" Text="It is located in Melon St, in Melbourne’s inner western corridor. Our school is divided into three campuses: The Girls’ campus from year 7 to 9, the Boy’s Campus from year 7 to 9, and thirdly the Co’ed campus from year 10 to 12."/>
-	<Label FontSize="10" Text="Our school educates over 2000 students who enjoy rich variety of educational opportunities inside and outside the classroom, as well as high quality facilities and the support of our caring and committed teachers." />
+	<Label TextColor="Black" FontSize="10" Text="Our school educates over 2000 students who enjoy rich variety of educational opportunities inside and outside the classroom, as well as high quality facilities and the support of our caring and committed teachers." />
     </StackLayout>
 
 
     <StackLayout Padding="10"> 
-    <Label FontSize="10" Text="This app was created so that it would help the parents, students and staffs of the Cypress academy, aiding them on planning and organizing the different activities in the school.
+    <Label TextColor="Black" FontSize="10" Text="This app was created so that it would help the parents, students and staffs of the Cypress academy, aiding them on planning and organizing the different activities in the school.
 					It is a Student Organizer app which will help them to view their school timetable and event that held. Established in 2016 for student in mobile computing assignment"/>
 
     </StackLayout>

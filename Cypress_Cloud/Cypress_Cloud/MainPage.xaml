@@ -65,17 +65,6 @@
       Text="Contact Us"
       WidthRequest = "150"
       HeightRequest = "30"/>
-
-
-    <Button
-  Clicked="Seventh_Button_Clicked"
-  HorizontalOptions="FillAndExpand"
-  BackgroundColor="#800000"
-  TextColor="White"
-  Font="Bold, Large"
-  Text="Database"
-  WidthRequest = "150"
-  HeightRequest = "30"/>
     
   </StackLayout>
   </ContentPage>

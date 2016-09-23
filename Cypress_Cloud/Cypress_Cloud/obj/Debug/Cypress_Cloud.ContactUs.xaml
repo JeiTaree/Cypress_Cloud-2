@@ -1,10 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  x:Class="Cypress_Cloud.ContactUs">
-  <StackLayout Padding="30" BackgroundColor="White">
-    <Button HorizontalOptions="StartAndExpand" Command="{Binding CommandOne}" Image = "contactus.png" Scale= "0.7"/>
-    <Image Source="logo.png" Scale="0.4" />
-    <Label Text="Melon St, Braybrook"/>
-    <Label Text="Melbourne Vic"/>
-    <Label Text="P.03 93782387"/>
-  </StackLayout>
+
+
+
+	  <StackLayout Padding="30">
+    
+
+	<Image HorizontalOptions="Center" Source="map.png"/>
+
+    <StackLayout  HorizontalOptions ="Center" Padding="10">
+    <Label TextColor="Maroon" FontAttributes="Bold" Text="Melon St, Braybrook"/>
+    <Label TextColor="Maroon" FontAttributes="Bold" Text="Melbourne Vic"/>
+    <Label TextColor="Maroon" FontAttributes="Bold" Text="P.03 93782387"/>
+	<Label TextColor="Maroon" FontAttributes="Bold" Text="Fax No.12345678"/>
+    </StackLayout>
+
+            
+  </StackLayout> 
+
+
+
+
+	
 </ContentPage>

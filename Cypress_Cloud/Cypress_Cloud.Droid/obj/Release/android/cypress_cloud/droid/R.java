@@ -22,9 +22,10 @@ public final class R {
         public static final int events=0x7f020008;
         public static final int icon=0x7f020009;
         public static final int logoo=0x7f02000a;
-        public static final int survey=0x7f02000b;
-        public static final int tutors=0x7f02000c;
-        public static final int yo=0x7f02000d;
+        public static final int map=0x7f02000b;
+        public static final int survey=0x7f02000c;
+        public static final int tutors=0x7f02000d;
+        public static final int yo=0x7f02000e;
     }
     public static final class string {
         public static final int ApplicationName=0x7f030001;

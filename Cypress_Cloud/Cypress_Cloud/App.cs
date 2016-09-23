@@ -11,32 +11,19 @@ namespace Cypress_Cloud
     {
         public App()
         {
-            MainPage = new NavigationPage(new MainPage());
-            //// The root page of your application
-            //MainPage = new ContentPage
-            //{
-            //    Content = new StackLayout
-            //    {
-            //        VerticalOptions = LayoutOptions.Center,
-            //        Children = {
-            //            new Label {
-            //                HorizontalTextAlignment = TextAlignment.Center,
-            //                Text = "Welcome to Xamarin Forms!"
-            //            }
-            //        }
-            //    }
-            //};
+			MainPage = new NavigationPage(new LoginPage());
         }
 
-        protected override void OnStart()
-        {
-            // Handle when your app starts
-        }
-
-        protected override void OnSleep()
-        {
-            // Handle when your app sleeps
-        }
+		protected override void OnStart()
+		{
+			//Debug.WriteLine("OnStart");
+		}
+		protected override void OnSleep()
+		{
+			//Debug.WriteLine("OnSleep saving ResumeAtTodoId = " + ResumeAtTodoId);
+			// the app should keep updating this value, to
+			// keep the "state" in case of a sleep/resume
+		}
 
         protected override void OnResume()
         {

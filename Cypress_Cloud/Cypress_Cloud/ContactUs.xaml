@@ -6,12 +6,13 @@
 	  <StackLayout Padding="30">
     
 
-	 <Label Text="Insert Map Here :( " />
+	<Image HorizontalOptions="Center" Source="map.png"/>
 
-    <StackLayout Padding="10">
-    <Label TextColor="Black" Text="Melon St, Braybrook"/>
-    <Label TextColor="Black" Text="Melbourne Vic"/>
-    <Label TextColor="Black" Text="P.03 93782387"/>
+    <StackLayout  HorizontalOptions ="Center" Padding="10">
+    <Label TextColor="Maroon" FontAttributes="Bold" Text="Melon St, Braybrook"/>
+    <Label TextColor="Maroon" FontAttributes="Bold" Text="Melbourne Vic"/>
+    <Label TextColor="Maroon" FontAttributes="Bold" Text="P.03 93782387"/>
+	<Label TextColor="Maroon" FontAttributes="Bold" Text="Fax No.12345678"/>
     </StackLayout>
 
             
